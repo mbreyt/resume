@@ -6,7 +6,7 @@
 				<div class="yui-u first">
 					<h1>Martin Breyton</h1>
 					<h2>Medical Student</h2>
-					<p><%= link_to "Download PDF", "cvmb.pdf", id: "pdf" %></p>
+					<p><%= link_to "Download PDF", "cvmb.pdf", id: "pdf", target: "_blank" %></p>
 					<p><a href="mailto:m.breyton@gmail.com">m.breyton@gmail.com</a></p>
 					<p>(+33)6 08 26 42 00</p>
 				</div>
@@ -47,6 +47,8 @@
 						<div class="yui-u">
 							<h2 class="academic"></t>Paris Descartes University, School of Medicine</h2>
 							<h3 >2016 &mdash;Diplome de Formation Approfondie en Sciences Médicales 2</h3>
+							<h2 class="academic"></t><%= link_to "Coursera MOOC", "https://www.coursera.org/learn/machine-learning", target: "_blank" %></h2>
+							<h3 >2016 Oct-Dec &mdash;Machine Learning MOOC by Pr Andrew Ng, Stanford University</h3>
 							<h2 class="academic">Centre de Recherches Interdisciplinaires</h2>
 							<h3>September 2015 &mdash; Intensive Crash Course on scientific programming in Python</h3>
 							<h2 class="academic">Paris Descartes University, School of Medicine</h2>
@@ -144,17 +146,17 @@
 
 					<div class="yui-gf last">
 						<ul class="talent">
-							<li class="thumb"><%= link_to image_tag("his_thumb.png"), "his.pdf" %></li>
+							<li class="thumb"><%= link_to image_tag("his_thumb.png"), "his.pdf", target: "_blank" %></li>
 							<li class="legend">HackInScience Diploma</li>
 						</ul>
 
 						<ul class="talent">
-							<li class="thumb"><%= link_to image_tag("martinBGrades_thumb.png"), "martinBGrades.pdf" %></li>
+							<li class="thumb"><%= link_to image_tag("martinBGrades_thumb.png"), "martinBGrades.pdf", target: "_blank" %></li>
 							<li class="legend">All grades since High School</li>
 						</ul>
 
 						<ul class="talent">
-							<li class="thumb"><%= link_to image_tag("toefl_thumb.png"), "toefl.pdf" %></li>
+							<li class="thumb"><%= link_to image_tag("toefl_thumb.png"), "toefl.pdf", target: "_blank" %></li>
 							<li class="legend">Toefl Scores</li>
 						</ul>
 
