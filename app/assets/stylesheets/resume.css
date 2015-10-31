@@ -24,7 +24,12 @@ body { font-family: Georgia; color: #444; }
   padding-bottom: 2em;
   border-bottom: 1px solid #ccc;
 }
-
+.yui-gf.languages {
+  padding-bottom: 0em;
+}
+.yui-gf.other {
+    border-bottom: none;
+}
 /* //-- header, body, footer -- */
 
 #hd {
