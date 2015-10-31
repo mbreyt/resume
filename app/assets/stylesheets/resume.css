@@ -72,6 +72,7 @@ li {
 }
 .job.last li {
   border-bottom: none;
+  font-size: 1.2em;
 }
 p.enlarge { font-size: 144%; padding-right: 6.5em; line-height: 24px; }
 p.enlarge span { color: #000 }
